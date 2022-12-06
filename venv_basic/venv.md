@@ -4,18 +4,22 @@
 
 ### Crie o ambiente virtual 
 
-```
+```shell
+
 python -m venv .venv
+
 ```
 
 dependendo das configurações do seu sistema operacional, pode ser necessário executar o python como python3
 
 ```shell
+
 python3 -m venv .venv
 
 ```
 
 ```shell
+
 pip install pandas dash
 
 ```
@@ -77,6 +81,49 @@ poetry add pandas
 ```shell
 
 poetry install
+
+```
+
+## Exportando o arquivo requirements.txt
+
+### Exportando com hashes
+
+```shell
+
+poetry export -f requirements.txt -o requirements.txt
+
+```
+
+ou
+
+```shell
+
+poetry export  --format=requirements.txt > requirements.txt
+
+```
+
+
+### Exportando sem hashes
+
+
+```shell
+
+poetry export  --without-hashes -f requirements.txt -o requirements.txt
+
+```
+
+ou
+
+```shell
+
+poetry export --without-hashes --format=requirements.txt > requirements.txt
+
+```
+
+ou
+
+```shell
+poetry export  --without-hashes -f requirements.txt > requirements.txt
 
 ```
 
