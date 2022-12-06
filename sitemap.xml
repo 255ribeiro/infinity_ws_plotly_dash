@@ -1,17 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>None</loc>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/index.html</loc>
          <lastmod>2022-12-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/cientif_py/jupyter_intro.html</loc>
          <lastmod>2022-12-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/cientif_py/numpy_intro.html</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/data_structures/datastructures.html</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/pandas_intro/basic_concepts.html</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/pandas_intro/pandas_intro.html</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/pandas_intro/pandas_intro_02.html</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/pandas_intro/pandas_intro_03.html</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/pandas_intro/pandas_intro_04.html</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/python_example/list_example_02.html</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/python_example/list_example_03.html</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/python_example/list_examples.html</loc>
+         <lastmod>2022-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/venv_basic/venv.html</loc>
          <lastmod>2022-12-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
