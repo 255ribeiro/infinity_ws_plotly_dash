@@ -1,0 +1,74 @@
+site_name: Gráficos interativos com Python Plotly e Dash - Infinity School
+use_directory_urls: false
+
+copyright: Copyright &copy; 2022 Fernando Ferraz Ribeiro
+
+theme:
+  features:
+    #- navigation.sections
+    - toc.integrate
+    #- navigation.tabs
+  name: material   
+  language: en-custom
+  custom_dir: docs\overrides
+
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: yellow
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# site_url: "https://255ribeiro.github.io/algorithmic_modeling_special_training/"
+# repo_url: "https://github.com/255ribeiro/algorithmic_modeling_special_training/"
+# repo_name: "255ribeiro/algorithmic_modeling_special_training" 
+
+nav:
+  - Home: index.md
+  - Virtual environment: ./venv_basic/venv.md
+  - Listas e dicionários: ./comp_var/list_dict.ipynb
+  
+ 
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - toc:
+      toc_depth: 1
+
+extra_css:
+  - overrides/css/extra_css.css
+
+plugins:
+  - mkdocs-jupyter:
+      kernel_name:
+      execute: True
+      include_source: True
+      
+
+
+extra:
+  social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/255ribeiro
+      - icon: fontawesome/brands/youtube
+        link: https://www.youtube.com/channel/UCCkMaRdD7PBWhs4JgH5s6_w
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/in/fernando-ferraz-ribeiro-b49a7bb0/
+      - icon: fontawesome/solid/envelope
+        link: mailto:ffribeiro@gmail.com
