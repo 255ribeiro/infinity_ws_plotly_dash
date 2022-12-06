@@ -7,10 +7,10 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ## Stack
 
 * `Python` - Conhecimento básico da linguagem incluindo:
-  * Listas
-  * Dicionários
-  * Funções
-  * Ambientes virtuais
+    * Listas
+    * Dicionários
+    * Funções
+    * Ambientes virtuais
 * `Numpy` - Pacote básico de programação científica mais utilizado na distribuição CPython
 * `Pandas` - Pacote de análise e manipulação de dados (depende do Numpy)
 * `Plotly` - Pacote de geração de gráficos 
@@ -18,5 +18,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `Dash` - Cria aplicativos web interativos com os gráficos gerados pelo Plotly
 
 ## Objetivos
-
 
