@@ -265,6 +265,30 @@
 <li><code>Flask</code> - [Opcional] Web framework que serve de base para Dash</li>
 <li><code>Dash</code> - Cria aplicativos web interativos com os gráficos gerados pelo Plotly</li>
 </ul>
+<h2 id="arvore-de-dependencias">Árvore de dependências</h2>
+<div class="highlight"><pre><span></span><code><span class="o">(</span>.venv<span class="o">)</span> poetry show -t --no-dev
+
+dash <span class="m">2</span>.7.0 A Python framework <span class="k">for</span> building reactive web-apps. Developed by Plotly.
+<span class="p">|</span>-- dash-core-components <span class="m">2</span>.0.0
+<span class="p">|</span>-- dash-html-components <span class="m">2</span>.0.0
+<span class="p">|</span>-- dash-table <span class="m">5</span>.0.0
+<span class="p">|</span>-- flask &gt;<span class="o">=</span><span class="m">1</span>.0.4
+<span class="p">|</span>   <span class="p">|</span>-- click &gt;<span class="o">=</span><span class="m">8</span>.0 
+<span class="p">|</span>   <span class="p">|</span>   <span class="sb">`</span>-- colorama * 
+<span class="p">|</span>   <span class="p">|</span>-- itsdangerous &gt;<span class="o">=</span><span class="m">2</span>.0
+<span class="p">|</span>   <span class="p">|</span>-- jinja2 &gt;<span class="o">=</span><span class="m">3</span>.0
+<span class="p">|</span>   <span class="p">|</span>   <span class="sb">`</span>-- markupsafe &gt;<span class="o">=</span><span class="m">2</span>.0
+<span class="p">|</span>   <span class="sb">`</span>-- werkzeug &gt;<span class="o">=</span><span class="m">2</span>.2.2
+<span class="p">|</span>       <span class="sb">`</span>-- markupsafe &gt;<span class="o">=</span><span class="m">2</span>.1.1 <span class="o">(</span>circular dependency aborted here<span class="o">)</span>
+<span class="sb">`</span>-- plotly &gt;<span class="o">=</span><span class="m">5</span>.0.0
+    <span class="sb">`</span>-- tenacity &gt;<span class="o">=</span><span class="m">6</span>.2.0
+pandas <span class="m">1</span>.5.2 Powerful data structures <span class="k">for</span> data analysis, <span class="nb">time</span> series, and statistics
+<span class="p">|</span>-- numpy &gt;<span class="o">=</span><span class="m">1</span>.21.0
+<span class="p">|</span>-- numpy &gt;<span class="o">=</span><span class="m">1</span>.23.2
+<span class="p">|</span>-- python-dateutil &gt;<span class="o">=</span><span class="m">2</span>.8.1
+<span class="p">|</span>   <span class="sb">`</span>-- six &gt;<span class="o">=</span><span class="m">1</span>.5
+<span class="sb">`</span>-- pytz &gt;<span class="o">=</span><span class="m">2020</span>.1
+</code></pre></div>
 <h2 id="objetivos">Objetivos</h2>
 
 
