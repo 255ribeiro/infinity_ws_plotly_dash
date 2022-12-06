@@ -1,19 +1,22 @@
-# Welcome to MkDocs
+# Gráficos Interativos com Python, Plotly e Dash
 
 <img src=" ./figs/logo_visual_header.png" >
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## Stack
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* `Python` - Conhecimento básico da linguagem incluindo:
+  * Listas
+  * Dicionários
+  * Funções
+  * Ambientes virtuais
+* `Numpy` - Pacote básico de programação científica mais utilizado na distribuição CPython
+* `Pandas` - Pacote de análise e manipulação de dados (depende do Numpy)
+* `Plotly` - Pacote de geração de gráficos 
+* `Flask` - [Opcional] Web framework que serve de base para Dash
+* `Dash` - Cria aplicativos web interativos com os gráficos gerados pelo Plotly
 
-## Project layout
+## Objetivos
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+

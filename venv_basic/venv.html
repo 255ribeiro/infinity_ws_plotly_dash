@@ -258,38 +258,38 @@
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>pip install pandas dash
 </code></pre></div>
-<h2 id="exportando-requirementstxt">Exportando requirements.txt</h2>
+<h3 id="exportando-requirementstxt">Exportando requirements.txt</h3>
 <div class="highlight"><pre><span></span><code>pip freeze &gt;&gt; requirements.txt
 </code></pre></div>
-<h1 id="utilizando-o-poetry">Utilizando o Poetry</h1>
-<h2 id="para-instalar-veja-as-informacoes-na-documentacao">Para instalar, veja as informações na documentação</h2>
+<h2 id="utilizando-o-poetry">Utilizando o Poetry</h2>
+<h3 id="para-instalar-veja-as-informacoes-na-documentacao">Para instalar, veja as informações na documentação</h3>
 <p><a href="https://python-poetry.org">Documentação</a></p>
 <p><a href="https://python-poetry.org/docs/#installation">Instalação</a></p>
-<h2 id="configurando-para-criacao-de-ambiente-virtual-na-pasta-do-projeto">Configurando para criação de ambiente virtual na pasta do projeto</h2>
+<h3 id="configurando-para-criacao-de-ambiente-virtual-na-pasta-do-projeto">Configurando para criação de ambiente virtual na pasta do projeto</h3>
 <div class="highlight"><pre><span></span><code>poetry config virtualenvs.in-project <span class="nb">true</span>
 </code></pre></div>
-<h2 id="iniciando-o-poetry">Iniciando o Poetry</h2>
+<h3 id="iniciando-o-poetry">Iniciando o Poetry</h3>
 <div class="highlight"><pre><span></span><code>poetry init &lt;nome da pasta&gt;
 </code></pre></div>
 <p>ou</p>
 <div class="highlight"><pre><span></span><code>poetry init .
 </code></pre></div>
-<h2 id="adicionando-pacotes">Adicionando pacotes</h2>
+<h3 id="adicionando-pacotes">Adicionando pacotes</h3>
 <div class="highlight"><pre><span></span><code>poetry add dash
 
 poetry add pandas
 </code></pre></div>
-<h2 id="instalando-ambiente-poetry">Instalando ambiente Poetry</h2>
+<h3 id="instalando-ambiente-poetry">Instalando ambiente Poetry</h3>
 <div class="highlight"><pre><span></span><code>poetry install
 </code></pre></div>
-<h2 id="exportando-o-arquivo-requirementstxt">Exportando o arquivo requirements.txt</h2>
-<h3 id="exportando-com-hashes">Exportando com hashes</h3>
+<h3 id="exportando-o-arquivo-requirementstxt">Exportando o arquivo requirements.txt</h3>
+<h4 id="exportando-com-hashes">Exportando com hashes</h4>
 <div class="highlight"><pre><span></span><code>poetry <span class="nb">export</span> -f requirements.txt -o requirements.txt
 </code></pre></div>
 <p>ou</p>
 <div class="highlight"><pre><span></span><code>poetry <span class="nb">export</span>  --format<span class="o">=</span>requirements.txt &gt; requirements.txt
 </code></pre></div>
-<h3 id="exportando-sem-hashes">Exportando sem hashes</h3>
+<h4 id="exportando-sem-hashes">Exportando sem hashes</h4>
 <div class="highlight"><pre><span></span><code>poetry <span class="nb">export</span>  --without-hashes -f requirements.txt -o requirements.txt
 </code></pre></div>
 <p>ou</p>

@@ -24,7 +24,7 @@ pip install pandas dash
 
 ```
 
-## Exportando requirements.txt
+### Exportando requirements.txt
 
 ```shell
 
@@ -32,16 +32,16 @@ pip freeze >> requirements.txt
 
 ```
 
-# Utilizando o Poetry
+## Utilizando o Poetry
 
 
-## Para instalar, veja as informações na documentação
+### Para instalar, veja as informações na documentação
 
 [Documentação](https://python-poetry.org)
 
 [Instalação](https://python-poetry.org/docs/#installation)
 
-## Configurando para criação de ambiente virtual na pasta do projeto
+### Configurando para criação de ambiente virtual na pasta do projeto
 
 ```shell
 
@@ -50,7 +50,7 @@ poetry config virtualenvs.in-project true
 
 ```
 
-## Iniciando o Poetry
+### Iniciando o Poetry
 
 ```shell
 
@@ -66,7 +66,7 @@ poetry init .
 
 ```
 
-## Adicionando pacotes
+### Adicionando pacotes
 
 
 ```shell
@@ -77,7 +77,7 @@ poetry add pandas
 
 ```
 
-## Instalando ambiente Poetry
+### Instalando ambiente Poetry
 
 
 ```shell
@@ -86,9 +86,9 @@ poetry install
 
 ```
 
-## Exportando o arquivo requirements.txt
+### Exportando o arquivo requirements.txt
 
-### Exportando com hashes
+#### Exportando com hashes
 
 ```shell
 
@@ -105,7 +105,7 @@ poetry export  --format=requirements.txt > requirements.txt
 ```
 
 
-### Exportando sem hashes
+#### Exportando sem hashes
 
 
 ```shell
