@@ -37,7 +37,9 @@ pip freeze >> requirements.txt
 
 ## Para instalar, veja as informações na documentação
 
-[documentação](https://python-poetry.org/docs/)
+[Documentação](https://python-poetry.org)
+
+[Instalação](https://python-poetry.org/docs/#installation)
 
 ## Configurando para criação de ambiente virtual na pasta do projeto
 
