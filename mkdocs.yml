@@ -10,7 +10,10 @@ theme:
     #- navigation.tabs
   name: material   
   language: en-custom
-  custom_dir: docs\overrides
+  custom_dir: docs/overrides
+  favicon: figs/favicon.jpg
+  logo: figs/favicon.jpg
+
 
   palette:
 
@@ -32,14 +35,28 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-# site_url: "https://255ribeiro.github.io/algorithmic_modeling_special_training/"
-# repo_url: "https://github.com/255ribeiro/algorithmic_modeling_special_training/"
-# repo_name: "255ribeiro/algorithmic_modeling_special_training" 
+site_url: "https://255ribeiro.github.io/infinity_ws_plotly_dash/"
+repo_url: "https://github.com/255ribeiro/infinity_ws_plotly_dash"
+repo_name: "255ribeiro/infinity_ws_plotly_dash" 
 
 nav:
   - Home: index.md
   - Virtual environment: ./venv_basic/venv.md
-  - Listas e dicionários: ./comp_var/list_dict.ipynb
+
+
+  - Estruturas de dados: ./data_structures/datastructures.ipynb
+  - Listas:
+    - Examplo 01: ./python_example/list_examples.py
+    - Examplo 02: ./python_example/list_example_02.py
+    - Examplo 03: ./python_example/list_example_03.py
+  - Numpy básico: ./cientif_py/numpy_intro.ipynb
+  - Jupyter básico: ./cientif_py/jupyter_intro.ipynb
+  - Pandas:
+
+    - Introdução pt1: ./pandas_intro/pandas_intro.ipynb
+    - Introdução pt2: ./pandas_intro/pandas_intro_02.ipynb
+    - Introdução pt3: ./pandas_intro/pandas_intro_03.ipynb
+    - Introdução pt4: ./pandas_intro/pandas_intro_04.ipynb
   
  
 
