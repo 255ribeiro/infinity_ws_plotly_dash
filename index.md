@@ -3,6 +3,8 @@
 
 <img src=" ./figs/logo_visual_header.png" >
 
+### Fernando Ferraz Ribeiro
+
 ## Stack
 
 * `Python` - Conhecimento básico da linguagem incluindo:
