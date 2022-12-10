@@ -75,7 +75,10 @@ extra_css:
 plugins:
   - mkdocs-jupyter:
       kernel_name:
+      include: ["*.py", "*.ipynb"]
+      #ignore: ["./flask/hello_flask.ipynb"]
       execute: True
+      execute_ignore: "./flask/hello_flask.ipynb"
       include_source: True
       
 
