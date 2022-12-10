@@ -45,19 +45,14 @@ nav:
 
 
   - Estruturas de dados: ./data_structures/datastructures.ipynb
-  - Listas:
-    - Examplo 01: ./python_example/list_examples.py
-    - Examplo 02: ./python_example/list_example_02.py
-    - Examplo 03: ./python_example/list_example_03.py
   - Numpy básico: ./cientif_py/numpy_intro.ipynb
   - Jupyter básico: ./cientif_py/jupyter_intro.ipynb
   - Pandas:
-
-    - Introdução pt1: ./pandas_intro/pandas_intro.ipynb
+    - Introdução pt1: ./pandas_intro/pandas_intro_01.ipynb
     - Introdução pt2: ./pandas_intro/pandas_intro_02.ipynb
     - Introdução pt3: ./pandas_intro/pandas_intro_03.ipynb
     - Introdução pt4: ./pandas_intro/pandas_intro_04.ipynb
-  - Flask conceito: ./flask/hello_flask.ipynb
+  - Flask conceito: ./flask_dash/flask/hello_flask.ipynb
   
  
 
@@ -78,7 +73,7 @@ plugins:
       include: ["*.py", "*.ipynb"]
       #ignore: ["./flask/hello_flask.ipynb"]
       execute: True
-      execute_ignore: "./flask/hello_flask.ipynb"
+      execute_ignore: "./flask_dash/*"
       include_source: True
       
 
