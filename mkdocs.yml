@@ -53,6 +53,9 @@ nav:
     - Introdução pt3: ./pandas_intro/pandas_intro_03.ipynb
     - Introdução pt4: ./pandas_intro/pandas_intro_04.ipynb
   - Flask conceito: ./flask_dash/flask/hello_flask.ipynb
+  - Plotly:
+    -Quick Start: ./plotly_basics/plotly_basics.ipynb
+    -Data e Layout: ./plotly_basics/data_e_layout.ipynb
   
  
 
@@ -73,7 +76,7 @@ plugins:
       include: ["*.py", "*.ipynb"]
       #ignore: ["./flask/hello_flask.ipynb"]
       execute: True
-      execute_ignore: "./flask_dash/*"
+      execute_ignore: "./flask_dash/*/*"
       include_source: True
       
 
