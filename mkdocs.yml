@@ -54,9 +54,11 @@ nav:
     - Introdução pt4: ./pandas_intro/pandas_intro_04.ipynb
   - Flask conceito: ./flask_dash/flask/hello_flask.ipynb
   - Plotly:
-    -Quick Start: ./plotly_basics/plotly_basics.ipynb
-    -Data e Layout: ./plotly_basics/data_e_layout.ipynb
-    -Bar Chart: ./plotly/bar_chart.ipynb
+    - Quick Start: ./plotly_basics/plotly_basics.ipynb
+    - Data e Layout: ./plotly_basics/data_e_layout.ipynb
+    - Bar Chart: ./plotly/bar_chart.ipynb
+    - Box Plot: ./plotly/box_plot.ipynb
+  
   
  
 
