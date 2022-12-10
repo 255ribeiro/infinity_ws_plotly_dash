@@ -1509,8 +1509,8 @@ Licensed under the Apache License, Version 2.0.
     }
     init_mathjax();
     </script>
-    <!-- End of mathjax configuration --><div class="jupyter-wrapper"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+    <!-- End of mathjax configuration --><div class="jupyter-wrapper"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -1533,10 +1533,172 @@ Licensed under the Apache License, Version 2.0.
             <div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.offline</span> <span class="k">as</span> <span class="nn">pyo</span>
 <span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="k">as</span> <span class="nn">go</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="c1">#np.random.seed(616)</span>
+
+<span class="n">rand_x1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">21</span><span class="p">)</span>
+<span class="n">rand_y1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">21</span><span class="p">)</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span><span class="o">*</span><span class="mi">10</span>
+
+<span class="n">rand_x2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">21</span><span class="p">)</span>
+<span class="n">rand_y2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
+
+<span class="n">rand_x3</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">21</span><span class="p">)</span>
+<span class="n">rand_y3</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
+
+
+<span class="nb">print</span><span class="p">(</span><span class="n">rand_y1</span><span class="p">)</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">rand_x1</span><span class="p">,</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">rand_y1</span><span class="p">,</span>
+    <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;markers&#39;</span><span class="p">,</span>
+<span class="p">),</span>
+
+<span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">rand_x2</span><span class="p">,</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">rand_y2</span><span class="p">,</span>
+    <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;lines&#39;</span><span class="p">,</span>
+<span class="p">),</span>
+
+<span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">rand_x3</span><span class="p">,</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">rand_y3</span><span class="p">,</span>
+    <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;lines+markers&#39;</span><span class="p">,</span>
+    
+<span class="p">)</span>
+
+<span class="p">]</span>
+
+<span class="n">layout</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Layout</span><span class="p">(</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Valores aleaórios&#39;</span><span class="p">,</span> <span class="c1"># dict(text =&#39;Valores aleaórios&#39;,font = dict(size=30)),</span>
+    <span class="n">xaxis</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Eixo X&#39;</span><span class="p">),</span> <span class="c1"># dict(title = &#39;Eixo X&#39;, color=&#39;orange&#39;)</span>
+    <span class="n">yaxis</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Eixo Y&#39;</span><span class="p">),</span> <span class="c1"># dict(title = &#39;Eixo Y&#39;, color=&#39;gold&#39;)</span>
+    <span class="n">hovermode</span> <span class="o">=</span><span class="s1">&#39;closest&#39;</span> <span class="c1"># handles multiple points landing on the same vertical</span>
+<span class="p">)</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">layout</span><span class="p">)</span>
+
+<span class="n">pyo</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">fig</span> <span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;scatter_with_layout.html&#39;</span><span class="p">)</span>
 </pre></div>
 <div id="cell-1" class="clipboard-copy-txt">import plotly.offline as pyo
 import plotly.graph_objs as go
-import numpy as np</div>
+import numpy as np
+
+#np.random.seed(616)
+
+rand_x1 = np.arange(0,21)
+rand_y1 = np.random.rand(1,21).flatten()*10
+
+rand_x2 = np.arange(0,21)
+rand_y2 = np.random.randint(0,11,20)
+
+rand_x3 = np.arange(0,21)
+rand_y3 = np.random.randint(0,11,20)
+
+
+print(rand_y1)
+data = [go.Scatter(
+    x = rand_x1,
+    y = rand_y1,
+    mode = 'markers',
+),
+
+go.Scatter(
+    x = rand_x2,
+    y = rand_y2,
+    mode = 'lines',
+),
+
+go.Scatter(
+    x = rand_x3,
+    y = rand_y3,
+    mode = 'lines+markers',
+    
+)
+
+]
+
+layout = go.Layout(
+    title = 'Valores aleaórios', # dict(text ='Valores aleaórios',font = dict(size=30)),
+    xaxis = dict(title = 'Eixo X'), # dict(title = 'Eixo X', color='orange')
+    yaxis = dict(title = 'Eixo Y'), # dict(title = 'Eixo Y', color='gold')
+    hovermode ='closest' # handles multiple points landing on the same vertical
+)
+
+fig = go.Figure(data=data, layout=layout)
+
+pyo.plot(fig , filename='scatter_with_layout.html')</div>
+    
+        </div>
+    </div>
+
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>[5.62394819 9.70623756 6.65926581 5.721009   2.60053922 4.08251727
+ 5.47244899 5.49318687 6.86652173 5.70003228 3.75120571 0.4058464
+ 5.72487022 9.9958807  3.90379486 2.6457315  4.73362083 0.45518697
+ 2.4704976  8.26670428 4.34596701]
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[1]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>&#39;scatter_with_layout.html&#39;</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-2">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span>
+</pre></div>
+<div id="cell-2" class="clipboard-copy-txt"></div>
     
         </div>
     </div>
