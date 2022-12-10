@@ -57,6 +57,7 @@ nav:
     - Introdução pt2: ./pandas_intro/pandas_intro_02.ipynb
     - Introdução pt3: ./pandas_intro/pandas_intro_03.ipynb
     - Introdução pt4: ./pandas_intro/pandas_intro_04.ipynb
+  - Flask conceito: ./flask/hello_flask.ipynb
   
  
 
