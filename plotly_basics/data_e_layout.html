@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#sintaxe-alternativa" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -243,82 +248,6 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4">
-          Listas
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Listas" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
-          <span class="md-nav__icon md-icon"></span>
-          Listas
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../python_example/list_examples.html" class="md-nav__link">
-        Examplo 01
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../python_example/list_example_02.html" class="md-nav__link">
-        Examplo 02
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../python_example/list_example_03.html" class="md-nav__link">
-        Examplo 03
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
     <li class="md-nav__item">
       <a href="../cientif_py/numpy_intro.html" class="md-nav__link">
         Numpy - Introdução
@@ -353,18 +282,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_7">
+        <label class="md-nav__link" for="__nav_6">
           Pandas
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Pandas" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
+        <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
           Pandas
         </label>
@@ -376,7 +305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pandas_intro/pandas_intro.html" class="md-nav__link">
+      <a href="../pandas_intro/pandas_intro_01.html" class="md-nav__link">
         Pandas intro pt1
       </a>
     </li>
@@ -440,7 +369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flask/hello_flask.html" class="md-nav__link">
+      <a href="../flask_dash/flask/hello_flask.html" class="md-nav__link">
         Flask conceito
       </a>
     </li>
@@ -1563,6 +1492,7 @@ Licensed under the Apache License, Version 2.0.
     <span class="n">x</span> <span class="o">=</span> <span class="n">rand_x3</span><span class="p">,</span>
     <span class="n">y</span> <span class="o">=</span> <span class="n">rand_y3</span><span class="p">,</span>
     <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;lines+markers&#39;</span><span class="p">,</span>
+
     
 <span class="p">)</span>
 
@@ -1612,6 +1542,7 @@ go.Scatter(
     x = rand_x3,
     y = rand_y3,
     mode = 'lines+markers',
+
     
 )
 
@@ -1648,10 +1579,10 @@ pyo.plot(fig , filename='scatter_with_layout.html')</div>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[5.62394819 9.70623756 6.65926581 5.721009   2.60053922 4.08251727
- 5.47244899 5.49318687 6.86652173 5.70003228 3.75120571 0.4058464
- 5.72487022 9.9958807  3.90379486 2.6457315  4.73362083 0.45518697
- 2.4704976  8.26670428 4.34596701]
+<pre>[1.31116185 9.35568937 3.97319349 7.19435397 5.98319944 2.27121691
+ 6.68378779 9.37794449 0.12646127 0.7888295  3.93343506 8.84194894
+ 4.35554586 8.58352301 6.85728195 1.55072134 2.96004581 4.35233186
+ 3.84626612 8.19102088 6.5226036 ]
 </pre>
 </div>
 </div>
@@ -1675,13 +1606,24 @@ pyo.plot(fig , filename='scatter_with_layout.html')</div>
 </div>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="sintaxe-alternativa">Sintaxe alternativa<a class="anchor-link" href="#sintaxe-alternativa">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
         <div class="CodeMirror cm-s-jupyter">
@@ -1696,14 +1638,141 @@ pyo.plot(fig , filename='scatter_with_layout.html')</div>
                 </div>
             </clipboard-copy>
         </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.offline</span> <span class="k">as</span> <span class="nn">pyo</span>
+<span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="k">as</span> <span class="nn">go</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="c1">#np.random.seed(616)</span>
+
+<span class="n">rand_x1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">21</span><span class="p">)</span>
+<span class="n">rand_y1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">21</span><span class="p">)</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span><span class="o">*</span><span class="mi">10</span>
+
+<span class="n">rand_x2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">21</span><span class="p">)</span>
+<span class="n">rand_y2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
+
+<span class="n">rand_x3</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">21</span><span class="p">)</span>
+<span class="n">rand_y3</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
+
+
+<span class="n">trace_00</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">rand_x1</span><span class="p">,</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">rand_y1</span><span class="p">,</span>
+    <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;markers&#39;</span><span class="p">,</span>
+    <span class="n">name</span> <span class="o">=</span><span class="s1">&#39;Pontos&#39;</span> <span class="c1"># nomes a serem usados na legenda</span>
+<span class="p">)</span>
+
+<span class="c1"># Criando objetos go.Scatter</span>
+<span class="n">trace_01</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">rand_x2</span><span class="p">,</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">rand_y2</span><span class="p">,</span>
+    <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;lines&#39;</span><span class="p">,</span>
+    <span class="n">name</span> <span class="o">=</span><span class="s1">&#39;linhas&#39;</span>
+<span class="p">)</span>
+
+<span class="n">trace_02</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">rand_x3</span><span class="p">,</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">rand_y3</span><span class="p">,</span>
+    <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;lines+markers&#39;</span><span class="p">,</span>
+    <span class="n">name</span> <span class="o">=</span><span class="s1">&#39;linhas e pontos&#39;</span>
+    
+<span class="p">)</span>
+
+<span class="c1"># Colocando os objetos em uma lista</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">trace_00</span><span class="p">,</span> <span class="n">trace_01</span><span class="p">,</span> <span class="n">trace_02</span><span class="p">]</span>
+
+<span class="n">layout</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Layout</span><span class="p">(</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Valores aleaórios&#39;</span><span class="p">,</span> <span class="c1"># dict(text =&#39;Valores aleaórios&#39;,font = dict(size=30)),</span>
+    <span class="n">xaxis</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Eixo X&#39;</span><span class="p">),</span> <span class="c1"># dict(title = &#39;Eixo X&#39;, color=&#39;orange&#39;)</span>
+    <span class="n">yaxis</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Eixo Y&#39;</span><span class="p">),</span> <span class="c1"># dict(title = &#39;Eixo Y&#39;, color=&#39;gold&#39;)</span>
+    <span class="n">hovermode</span> <span class="o">=</span><span class="s1">&#39;closest&#39;</span> <span class="c1"># handles multiple points landing on the same vertical</span>
+<span class="p">)</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">layout</span><span class="p">)</span>
+
+<span class="n">pyo</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">fig</span> <span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;scatter_with_layout.html&#39;</span><span class="p">)</span>
 </pre></div>
-<div id="cell-2" class="clipboard-copy-txt"></div>
+<div id="cell-2" class="clipboard-copy-txt">import plotly.offline as pyo
+import plotly.graph_objs as go
+import numpy as np
+
+#np.random.seed(616)
+
+rand_x1 = np.arange(0,21)
+rand_y1 = np.random.rand(1,21).flatten()*10
+
+rand_x2 = np.arange(0,21)
+rand_y2 = np.random.randint(0,11,20)
+
+rand_x3 = np.arange(0,21)
+rand_y3 = np.random.randint(0,11,20)
+
+
+trace_00 = go.Scatter(
+    x = rand_x1,
+    y = rand_y1,
+    mode = 'markers',
+    name ='Pontos' # nomes a serem usados na legenda
+)
+
+# Criando objetos go.Scatter
+trace_01 = go.Scatter(
+    x = rand_x2,
+    y = rand_y2,
+    mode = 'lines',
+    name ='linhas'
+)
+
+trace_02 = go.Scatter(
+    x = rand_x3,
+    y = rand_y3,
+    mode = 'lines+markers',
+    name ='linhas e pontos'
+    
+)
+
+# Colocando os objetos em uma lista
+data = [trace_00, trace_01, trace_02]
+
+layout = go.Layout(
+    title = 'Valores aleaórios', # dict(text ='Valores aleaórios',font = dict(size=30)),
+    xaxis = dict(title = 'Eixo X'), # dict(title = 'Eixo X', color='orange')
+    yaxis = dict(title = 'Eixo Y'), # dict(title = 'Eixo Y', color='gold')
+    hovermode ='closest' # handles multiple points landing on the same vertical
+)
+
+fig = go.Figure(data=data, layout=layout)
+
+pyo.plot(fig , filename='scatter_with_layout.html')</div>
     
         </div>
     </div>
 
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>&#39;scatter_with_layout.html&#39;</pre>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div>

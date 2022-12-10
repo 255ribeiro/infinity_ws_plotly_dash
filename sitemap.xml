@@ -21,12 +21,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/flask/hello_flask.html</loc>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/flask_dash/flask/hello_flask.html</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/pandas_intro/pandas_intro.html</loc>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/pandas_intro/pandas_intro_01.html</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -52,21 +52,6 @@
     </url>
     <url>
          <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/plotly_basics/plotly_basics.html</loc>
-         <lastmod>2022-12-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/python_example/list_example_02.html</loc>
-         <lastmod>2022-12-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/python_example/list_example_03.html</loc>
-         <lastmod>2022-12-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/python_example/list_examples.html</loc>
          <lastmod>2022-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
