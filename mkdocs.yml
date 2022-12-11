@@ -58,6 +58,7 @@ nav:
     - Data e Layout: ./plotly_basics/data_e_layout.ipynb
     - Bar Chart: ./plotly/bar_chart.ipynb
     - Box Plot: ./plotly/box_plot.ipynb
+    - Histograma: ./plotly/histogram.ipynb
   
   
  
