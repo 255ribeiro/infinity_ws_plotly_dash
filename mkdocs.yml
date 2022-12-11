@@ -11,8 +11,8 @@ theme:
   name: material   
   language: en-custom
   custom_dir: docs/overrides
-  favicon: figs/favicon.jpg
-  logo: figs/favicon.jpg
+  favicon: figs/favicon2.png
+  logo: figs/favicon2.png
 
 
   palette:
