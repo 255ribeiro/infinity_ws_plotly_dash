@@ -61,6 +61,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/plotly/histogram.html</loc>
+         <lastmod>2022-12-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://255ribeiro.github.io/infinity_ws_plotly_dash/plotly_basics/data_e_layout.html</loc>
          <lastmod>2022-12-11</lastmod>
          <changefreq>daily</changefreq>
