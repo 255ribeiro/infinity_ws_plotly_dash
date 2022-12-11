@@ -1,7 +1,7 @@
 # Workshop
 ## Gráficos Interativos com Python, Plotly e Dash
 
-<img src=" ./figs/logo_visual_header.png" >
+<!-- <img src=" ./figs/logo_visual_header.png" > -->
 
 ### Fernando Ferraz Ribeiro
 
@@ -33,6 +33,6 @@
 
 ## Exemplo
 
-<object width="800" height="600" type="text/html" data="./plotly/iris_data.html"></object>
+[http://ffribeiro.pythonanywhere.com/](http://ffribeiro.pythonanywhere.com/)
 
 

@@ -11,8 +11,8 @@ theme:
   name: material   
   language: en-custom
   custom_dir: docs/overrides
-  favicon: figs/favicon2.png
-  logo: figs/favicon2.png
+  favicon: figs/chart_white/icons8-doughnut-chart-96.png
+  logo: figs/chart_white/icons8-doughnut-chart-96.png
 
 
   palette:
@@ -78,9 +78,9 @@ extra_css:
 plugins:
   - mkdocs-jupyter:
       kernel_name:
-      include: [] #["*.py", "*.ipynb"]
+      include: ["*.py", "*.ipynb"]
       #ignore: ["./flask/hello_flask.ipynb"]
-      execute: False
+      execute: True
       execute_ignore: "./flask_dash/*/*"
       include_source: True
       
