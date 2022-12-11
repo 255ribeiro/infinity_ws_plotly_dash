@@ -31,3 +31,8 @@
   * decoradores `callback`
   * Elementos interativos
 
+## Exemplo
+
+<object width="800" height="600" type="text/html" data="./plotly/iris_data.html"></object>
+
+
