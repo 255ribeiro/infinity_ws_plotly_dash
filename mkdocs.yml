@@ -58,6 +58,7 @@ nav:
     - Data e Layout: ./plotly_basics/data_e_layout.ipynb
     - Bar Chart: ./plotly/bar_chart.ipynb
     - Box Plot: ./plotly/box_plot.ipynb
+    - Bubble Chart: plotly/bubble_chart.ipynb
     - Histograma: ./plotly/histogram.ipynb
   
   
@@ -77,9 +78,9 @@ extra_css:
 plugins:
   - mkdocs-jupyter:
       kernel_name:
-      include: ["*.py", "*.ipynb"]
+      include: [] #["*.py", "*.ipynb"]
       #ignore: ["./flask/hello_flask.ipynb"]
-      execute: True
+      execute: False
       execute_ignore: "./flask_dash/*/*"
       include_source: True
       
