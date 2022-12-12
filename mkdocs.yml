@@ -50,9 +50,7 @@ nav:
   - Pandas:
     - Introdução pt1: ./pandas_intro/pandas_intro_01.ipynb
     - Introdução pt2: ./pandas_intro/pandas_intro_02.ipynb
-    - Introdução pt3: ./pandas_intro/pandas_intro_03.ipynb
-    - Introdução pt4: ./pandas_intro/pandas_intro_04.ipynb
-  - Flask conceito: ./flask_dash/flask/hello_flask.ipynb
+  - Flask quick start: ./flask_dash/flask/hello_flask.ipynb
   - Plotly:
     - Quick Start: ./plotly_basics/plotly_basics.ipynb
     - Data e Layout: ./plotly_basics/data_e_layout.ipynb
