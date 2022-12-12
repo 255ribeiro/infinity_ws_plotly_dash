@@ -60,6 +60,13 @@ nav:
     - Box Plot: ./plotly/box_plot.ipynb
     - Bubble Chart: plotly/bubble_chart.ipynb
     - Histograma: ./plotly/histogram.ipynb
+  - Dash:
+    - Quick Start: ./flask_dash/dash/dash_basics_html.ipynb
+    - Dash core components pt1: ./flask_dash/dash/dash_basics_dcc.ipynb
+    - Dash Plotly: ./flask_dash/dash/dash_plotly_basics.ipynb
+    - Dash core components pt2: ./flask_dash/dash/dash_core_components.ipynb
+    - Callbacks pt 1: ./flask_dash/dash/callback_basics.ipynb
+    - Callbacks pt 2: ./flask_dash/dash/callback_example_01.ipynb
   
   
  
