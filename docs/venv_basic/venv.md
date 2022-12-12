@@ -62,7 +62,7 @@ ou
 
 ```shell
 
-poetry init .
+poetry init
 
 ```
 
